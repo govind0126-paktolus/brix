@@ -8,6 +8,6 @@ async function bootstrap() {
   app.enableCors();
   app.useGlobalPipes(new ValidationPipe());
   app.use(passport.initialize());
-  await app.listen(3001);
+  await app.listen(process.env.port || 3001);
 }
 bootstrap();
