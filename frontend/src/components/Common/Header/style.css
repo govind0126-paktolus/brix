@@ -1,0 +1,76 @@
+.header_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.img_div {
+  cursor: pointer;
+}
+.btn_div button {
+  margin-left: 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  display: none;
+  box-shadow: 5px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+.popup input{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  width: fit-content;
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.55);
+}
+.popup input:hover {
+  outline: none;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.popup button {
+  padding: 10px 20px;
+  border: none;
+  color: #dad7ff;
+  font-weight: bold;
+  background-color: #4a3aff;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+}
+
+.overlay.active,
+.popup.active {
+  display: block;
+}

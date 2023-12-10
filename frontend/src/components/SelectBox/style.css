@@ -1,0 +1,28 @@
+.wrapper {
+    border: 3px solid #ffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 3px 4px 3px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .selected {
+    border-color: #6c5ffe;
+  }
+  
+ .image>img{
+    height: 30px;
+    margin: 10px;
+    width: 30px;
+
+  }
+  .image{
+    border-radius: 50%;
+    background-color: #e4e1ff;
+    margin-right: 10px;
+  }

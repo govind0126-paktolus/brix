@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  color: #dad7ff;
+  font-weight: bold;
+  background-color: #4a3aff;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.previous{
+  padding: 10px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #4a3aff;
+  border: 1px solid #4a3aff;
+}

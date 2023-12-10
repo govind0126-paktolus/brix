@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "9687c1c0-24cc-4858-9954-45d0d2a94aac",
+		"name": "TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17619488",
+		"_collection_link": "https://pkt-apps-api-demo-roi.postman.co/workspace/My-Workspace~c34a430e-dacb-4202-86f5-853de918df34/collection/17619488-9687c1c0-24cc-4858-9954-45d0d2a94aac?action=share&source=collection_link&creator=17619488"
+	},
+	"item": [
+		{
+			"name": "https://aw-test.free.beeceptor.com/api/v1/lead/save",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImJvYkBwYWt0b2x1cy5jb20iLCJuYW1laWQiOiJhYTgzOTQyNS00OWU4LTQwNzItOGJlNC0yMDQ5MDU4YzYwOGQiLCJnaXZlbl9uYW1lIjoiQm9iIiwiZmFtaWx5X25hbWUiOiJBbmFzb3JpIiwidXNlcl92aWV3X2FjY2Vzc190eXBlIjoiRGVhbGVyIiwicm9sZSI6WyJEZWFsZXIiLCJWaWV3IEludm9pY2UiLCJTYXZlIFF1b3RlcyIsIkVkaXQgTWFya3VwIiwiVmlldyBSZW1pdHRhbmNlIiwiTWFuYWdlIEFDSCBJbmZvcm1hdGlvbiIsIkNhbmNlbCBDb250cmFjdCIsIlZvaWQgQ29udHJhY3RzIiwiVmlldyBSZXRhaWwgUHJpY2UgTGltaXRzIiwiRWRpdCBSZXRhaWwgUHJpY2UgTGltaXRzIiwiUGF5IFJlbWl0dGFuY2UiLCJFbnRlciBDb250cmFjdCIsIlByb2Nlc3MgUXVvdGVzIiwiU2FsZXMgQXNzb2NpYXRlcyIsIlZpZXcgTWFya3VwIl0sInNpZ25faW4iOiJtZmEiLCJuYmYiOjE2OTgwNTQ1MjYsImV4cCI6MTY5ODE0MDkyNiwiaWF0IjoxNjk4MDU0NTI2LCJpc3MiOiJodHRwczovL3pvb20tc3RhZ2UuYWxwaGF3YXJyYW50eS5jb20iLCJhdWQiOiJodHRwczovL3pvb20tc3RhZ2UuYWxwaGF3YXJyYW50eS5jb20ifQ._6DP-RHaxKa0PYP4DSIZLkJYYggfcHNGm68VMggWV9E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "some-header",
+						"value": "some-value",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"full_name\": \"John Doe\",\n\"email\": \"john@example.com\",\n\"phone\": \"9898989898\",\n\"company\": \"Test Inc\",\n\"intrested_services\": \"{'development','web_design','marketing','others'}\",\n\"budget\": \"10000-20000\",\n\"requested_at\": \"2023-11-08 17:09:11\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://aw-test.free.beeceptor.com/api/v1/lead/save",
+					"protocol": "https",
+					"host": [
+						"aw-test",
+						"free",
+						"beeceptor",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"lead",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

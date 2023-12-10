@@ -1,0 +1,43 @@
+.footer_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.footer_img_div img {
+  width: 80%;
+  height: 80%;
+}
+
+.footer_img_div p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.footer_input_div p {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input-with-button {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-button input {
+  padding-right: 10px;
+  padding: 15px;
+  flex: 1;
+  border: none;
+  height: 45px;
+  border-radius: 20px;
+  box-shadow: 5px 12px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.input-with-button button {
+  position: absolute;
+  right: 60px;
+  padding: 5px 10px !important;
+}
